@@ -148,7 +148,7 @@ window.addEventListener("DOMContentLoaded", function () {
     breakpoints: {
       640: { slidesPerView: "auto" },
       768: { slidesPerView: "auto" },
-      1024: { slidesPerView: 2.9 },
+      1024: { slidesPerView: 2.6 },
       1280: {
         slidesPerView: 3.6,
       },
