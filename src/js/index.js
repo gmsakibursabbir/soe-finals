@@ -90,6 +90,10 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
   slidesPerView: "auto",
   spaceBetween: 12,
   loop: true,
+  grabCursor: true,
+  mousewheel: {
+    forceToAxis: true,
+  },
   navigation: {
     nextEl: ".swiper-next",
     prevEl: ".swiper-prev",
@@ -106,6 +110,7 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
     },
   },
 });
+
 
 //dev
 const devsswiper = new Swiper(".devSwiper", {
