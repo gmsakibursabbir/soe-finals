@@ -94,6 +94,11 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
   mousewheel: {
     forceToAxis: true,
   },
+  autoplay: {
+    delay: 3000, // autoplay every 3 seconds
+    disableOnInteraction: false, // keeps autoplay after user interaction
+    pauseOnMouseEnter: true, // pauses autoplay when hovered
+  },
   navigation: {
     nextEl: ".swiper-next",
     prevEl: ".swiper-prev",
@@ -110,7 +115,6 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
     },
   },
 });
-
 
 //dev
 const devsswiper = new Swiper(".devSwiper", {
