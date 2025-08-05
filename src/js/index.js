@@ -95,9 +95,9 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
     forceToAxis: true,
   },
   autoplay: {
-    delay: 3000, // autoplay every 3 seconds
-    disableOnInteraction: false, // keeps autoplay after user interaction
-    pauseOnMouseEnter: true, // pauses autoplay when hovered
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
   },
   navigation: {
     nextEl: ".swiper-next",
@@ -121,6 +121,11 @@ const devsswiper = new Swiper(".devSwiper", {
   slidesPerView: "auto",
   spaceBetween: 12,
   loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   navigation: {
     nextEl: ".swiperdev-next",
     prevEl: ".swiperdev-prev",
@@ -147,8 +152,9 @@ window.addEventListener("DOMContentLoaded", function () {
     spaceBetween: 12,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
     navigation: {
       nextEl: ".frecuentes-next",
